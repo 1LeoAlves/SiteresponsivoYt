@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+    font-size: 1.5vw;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 50px;
+    padding: 2px;
+}
+
+.search-bar{
+    border: 2px solid rgb(206, 206, 206);
+    border-radius: 50px 50px;
+    width: 350px;
+    margin: 8px;
+}
+video{
+    border-radius: 10px;
+    width: 100%;
+}
+
+main{
+    display: grid;
+    justify-content: center;
+    padding: 15px;
+    grid-template-columns: 80% 20%;
+}
+
+.related-vidlist{
+    width: 100%;
+    padding-left: 20px;
+}
+li > img{
+    width: 100%;
+    border-radius: 4px;
+}
